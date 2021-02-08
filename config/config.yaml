@@ -25,7 +25,8 @@ weight_decay: 1.0e-6 # "optimized using LARS [...] and weight decay of 10−6"
 temperature: 0.5 # see appendix B.7.: Optimal temperature under different batch sizes
 
 # reload options
-model_path: "save" # set to the directory containing `checkpoint_##.tar` 
+model_path: "/n/owens-data1/mnt/Big1/nkanama/nkanamar/SimCLRCode/SimCLR/checkpoints"
+# set to the directory containing `checkpoint_##.tar` 
 epoch_num: 100 # set to checkpoint number
 reload: False
 
